@@ -4,11 +4,13 @@ count = 0
 elements_count = {}
 L = 0
 R = N-1
+
 for element in A:
     if element in elements_count:
         elements_count[element] += 1
     else:
         elements_count[element] = 1
+
 for element in elements_count:
     if elements_count[element] != 0:
         count += 1
