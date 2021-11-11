@@ -36,3 +36,6 @@ else:
     count += 1
 
     print(L+1, R+1)
+
+
+
