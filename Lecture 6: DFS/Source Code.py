@@ -9,6 +9,7 @@ def DFS(src):
     for i in range(V):
         visited[i] = False
         path[i] = -1
+
     s = []
     visited[src] = True
     s.append(src)
@@ -38,5 +39,6 @@ if __name__ == '__main__':
         graph[v].append(u)
     s = 0
     f = 5
+
     DFS(s)
     printPath_Recursive(s,f)
